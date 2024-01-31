@@ -1,0 +1,370 @@
+body {
+  background: var(--dark-background, #181818);
+  font-family: "Roboto" sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-text a {
+  padding: 10px 10px 0 10px;
+  color: var(--light-text, #fff);
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.header-button button {
+  color: var(--light-background, #fff);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Roboto" sans-serif;
+  background: transparent;
+}
+
+.header-button {
+  background: transparent;
+  width: 40px;
+  height: 10px;
+  padding: 20px 36px;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid var(--light-text, #fff);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero {
+  margin-top: 113px;
+}
+
+.hero-text h1 {
+  color: var(--light-text, #fff);
+  text-align: center;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 88px; /* 110% */
+  letter-spacing: 0.2px;
+}
+
+.hero-p {
+  color: var(--light-text, #fff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  padding-top: 27px;
+}
+
+.hero-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+.hero-button button {
+  background: #4452fe;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  color: var(--light-text, #fff);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: 0.2px;
+}
+
+.hero-btn2 button {
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  border: 1px solid var(--light-text, #fff);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  color: var(--light-background, #fff);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: 0.2px;
+  background: transparent;
+}
+
+.imgm img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.surot img {
+  position: absolute;
+  top: 900px;
+  width: 100%;
+}
+
+#first {
+  margin-top: 200px;
+}
+
+.first-text {
+  text-align: center;
+}
+
+.first-text h1 {
+  color: var(--light-text, #fff);
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.first-text p {
+  color: var(--light-text, #fff);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  padding-top: 27px;
+}
+
+.first-menu {
+  margin-top: 80px;
+}
+
+.first-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+#alek {
+  margin-top: 211px;
+}
+
+.alek-text {
+  text-align: center;
+}
+
+.alek-text h1 {
+  color: var(--light-text, #fff);
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.alek-text p {
+  color: var(--light-text, #fff);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  padding: 10px 0 54px 0;
+}
+
+.alek-cards {
+  display: flex;
+  justify-content: center;
+}
+
+#uson {
+  margin-top: 212px;
+}
+
+.uson {
+  text-align: center;
+}
+
+.uson h1 {
+  color: var(--light-text, #fff);
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.uson p {
+  color: var(--light-text, #fff);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  padding: 10px 0 54px 0;
+}
+
+.uson-card {
+  text-align: center;
+}
+
+.uson-card img {
+  margin: 0 33px;
+  border-radius: 10px;
+}
+
+.uson-card2 {
+  text-align: center;
+}
+
+.uson-card2 img {
+  margin: 0 33px;
+  border-radius: 10px;
+  margin-top: 44px;
+}
+
+.see {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.see button {
+  color: var(--light-text, #fff);
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  padding: 10px 30px;
+  border: 1px solid var(--light-text, #fff);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  background: transparent;
+  margin-top: 44px;
+}
+
+#tima {
+  margin-top: 200px;
+}
+
+.tima h1 {
+  color: var(--light-text, #fff);
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.tima p {
+  color: var(--light-text, #fff);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  padding: 10px 0 60px 0;
+}
+
+.tima {
+  text-align: center;
+}
+
+.tima-card {
+  text-align: center;
+}
+
+.tima-card svg {
+  margin: 0 55px;
+}
+
+.tima-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.tima-btn button {
+  color: var(--light-text, #fff);
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  padding: 10px 30px;
+  border: 1px solid var(--light-text, #fff);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  background: transparent;
+}
+
+#ilim {
+  margin-top: 210px;
+}
+
+.ilim h1 {
+  color: var(--light-text, #fff);
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.ilim-menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+
+.ilim-menu2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+
+#suka {
+  margin-top: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text h3 {
+  color: var(--light-text, #fff);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  padding-bottom: 40px;
+}
+
+.footer-text h4 {
+  color: var(--light-text, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  padding-top: 19px;
+}
+
+.footer-img {
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
